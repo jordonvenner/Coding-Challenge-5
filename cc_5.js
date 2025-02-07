@@ -47,3 +47,12 @@ cartItems.unshift("Monitor");
 cartItems.shift();
 
 console,log(cartItems);
+
+
+//Task 4: Map Method
+
+const prices =[100, 200, 300];
+
+const discountedPrices = prices.map(price => price * 0.9);
+
+console.log(discountedPrices);
