@@ -34,3 +34,16 @@ const order = {
 order.displayOrder();
 
 
+//Task 3: Array Manipulation (push, pop, shift, unshift)
+
+const cartItems = ["TV", "Laptop", "Mouse"];
+
+cartItems.push("Headphones");
+
+cartItems.pop();
+
+cartItems.unshift("Monitor");
+
+cartItems.shift();
+
+console,log(cartItems);
